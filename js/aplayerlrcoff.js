@@ -32,7 +32,7 @@ var aplayerlrcoff = new MutationObserver(function (mutations) {
             lrcButton.click();
         }, 1);
         // 打印"success"到控制台
-        console.log("success");
+        console.log("aplayerlrcoff success");
         // 断开MutationObserver实例，停止监听DOM的变化
         aplayerlrcoff.disconnect();
     }
