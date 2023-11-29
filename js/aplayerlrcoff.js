@@ -26,7 +26,7 @@ var aplayerlrcoff = new MutationObserver(function (mutations) {
     // 查找页面中class为"aplayer-icon-lrc"的元素
     var lrcButton = document.querySelector(".aplayer-icon-lrc");
     // 如果找到了lrcButton
-    if (lrcButton) {
+    if (lrcButton && location.pathname != "/music/") {
         // 延迟1毫秒执行点击操作
         setTimeout(function () {
             lrcButton.click();
