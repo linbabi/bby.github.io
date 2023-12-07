@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Hello Html</title>
+      <link href="/posts/helloHtml.html"/>
+      <url>/posts/helloHtml.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="npm-镜像"><a href="#npm-镜像" class="headerlink" title="npm 镜像"></a>npm 镜像</h2><p>npm 淘宝镜像源</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 使用淘宝源</span></span><br><span class="line">npm install -g cnpm --registry=http://registry.npmmirror.com</span><br><span class="line"><span class="comment"># 检查是否安装成功</span></span><br><span class="line">cnpm -v</span><br><span class="line"><span class="comment"># 可以切换回官方源</span></span><br><span class="line">npm config <span class="built_in">set</span> registry https://registry.npmjs.org/ </span><br></pre></td></tr></table></figure><h2 id="安装-Butterfly"><a href="#安装-Butterfly" class="headerlink" title="安装 Butterfly"></a>安装 Butterfly</h2><p>参考：<a href="https://butterfly.js.org/posts/21cfbf15/">Butterfly</a></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 方法一</span></span><br><span class="line">npm install hexo-theme-butterfly</span><br><span class="line"><span class="comment">#通过 npm 安装并不会在 themes 里生成主题文件夹，而是在 node_modules 里生成</span></span><br><span class="line"><span class="comment"># 方法二</span></span><br><span class="line">git <span class="built_in">clone</span> -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly</span><br><span class="line"><span class="comment">#在你的 Hexo 根目录里</span></span><br></pre></td></tr></table></figure><h2 id="快速开始"><a href="#快速开始" class="headerlink" title="快速开始"></a>快速开始</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> Html </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Html </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello Butterfly</title>
+      <link href="/posts/helloButterfly.html"/>
+      <url>/posts/helloButterfly.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="npm-镜像"><a href="#npm-镜像" class="headerlink" title="npm 镜像"></a>npm 镜像</h2><p>npm 淘宝镜像源</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 使用淘宝源</span></span><br><span class="line">npm install -g cnpm --registry=http://registry.npmmirror.com</span><br><span class="line"><span class="comment"># 检查是否安装成功</span></span><br><span class="line">cnpm -v</span><br><span class="line"><span class="comment"># 可以切换回官方源</span></span><br><span class="line">npm config <span class="built_in">set</span> registry https://registry.npmjs.org/ </span><br></pre></td></tr></table></figure><h2 id="安装-Butterfly"><a href="#安装-Butterfly" class="headerlink" title="安装 Butterfly"></a>安装 Butterfly</h2><p>参考：<a href="https://butterfly.js.org/posts/21cfbf15/">Butterfly</a></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 方法一</span></span><br><span class="line">npm install hexo-theme-butterfly</span><br><span class="line"><span class="comment">#通过 npm 安装并不会在 themes 里生成主题文件夹，而是在 node_modules 里生成</span></span><br><span class="line"><span class="comment"># 方法二</span></span><br><span class="line">git <span class="built_in">clone</span> -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly</span><br><span class="line"><span class="comment">#在你的 Hexo 根目录里</span></span><br></pre></td></tr></table></figure><h2 id="快速开始"><a href="#快速开始" class="headerlink" title="快速开始"></a>快速开始</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> Butterfly </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Butterfly </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello Hexo | Hello World | Hello Blog</title>
+      <link href="/posts/helloHexo.html"/>
+      <url>/posts/helloHexo.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>使用 <a href="https://hexo.io/zh-cn/">Hexo</a> + <a href="https://butterfly.js.org/zh-cn/">butterfly</a> + <a href="https://github.com/">GitHub</a> 搭建个人博客所有必备的应用程序安装完成后，即可使用 npm 安装 Hexo。</p><h2 id="软件安装"><a href="#软件安装" class="headerlink" title="软件安装"></a>软件安装</h2><h3 id="安装-Node-js"><a href="#安装-Node-js" class="headerlink" title="安装 Node.js"></a>安装 <a href="https://nodejs.org/en/download/">Node.js</a></h3><p>进入Node.js官网下载：<a href="https://nodejs.org/en/download/">https://nodejs.org/en/download/</a><br>或查看本机是否安装 Node.js</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ node -v</span><br></pre></td></tr></table></figure><h3 id="安装-Git"><a href="#安装-Git" class="headerlink" title="安装 Git"></a>安装 <a href="https://git-scm.com/downloads">Git</a></h3><p>进入Git官网下载：<a href="https://git-scm.com/downloads">https://git-scm.com/downloads</a><br>或查看本机是否安装 Node.js</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git --version</span><br></pre></td></tr></table></figure><h3 id="安装-Hexo"><a href="#安装-Hexo" class="headerlink" title="安装 Hexo"></a>安装 <a href="https://hexo.io/zh-cn/">Hexo</a></h3><p>选择一个磁盘，新建一个文件夹，重命名文件夹，博客相关文件将储存在此文件夹下，在该文件夹下右键鼠标，点击 Git Bash Here，输入以下 npm 命令即可安装,</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br></pre></td></tr></table></figure><h3 id="初始化博客"><a href="#初始化博客" class="headerlink" title="初始化博客"></a>初始化博客</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo inti</span><br></pre></td></tr></table></figure><h4 id="本地启动"><a href="#本地启动" class="headerlink" title="本地启动"></a>本地启动</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br><span class="line">$ hexo server <span class="comment"># 访问 http://localhost:4000</span></span><br></pre></td></tr></table></figure><p><img src="https://ooo.0x0.ooo/2023/11/25/OrRzYq.png" alt="bby 效果"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
