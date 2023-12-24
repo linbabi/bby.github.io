@@ -1,7 +1,7 @@
 var anzhiyu = {
     // 音乐节目切换背景
     changeMusicBg: function (isChangeBg = true) {
-      if (window.location.pathname != "/music/") {
+      if (window.location.pathname == null) {
         return;
       }
       const anMusicBg = document.getElementById("an_music_bg");
@@ -22,10 +22,10 @@ var anzhiyu = {
             // 绑定事件
             anzhiyu.addEventListenerChangeMusicBg();
   
-            // 暂停nav的音乐
-            if (document.querySelector("#nav-music meting-js").aplayer && !document.querySelector("#nav-music meting-js").aplayer.audio.paused) {
-              anzhiyu.musicToggle();
-            }
+            // // 暂停nav的音乐
+            // if (document.querySelector("#nav-music meting-js").aplayer && !document.querySelector("#nav-music meting-js").aplayer.audio.paused) {
+            //   anzhiyu.musicToggle();
+            // }
           }
         }, 100);
       }
@@ -45,7 +45,8 @@ var anzhiyu = {
       });
   
       document.getElementById("menu-mask").addEventListener("click", function () {
-        if (window.location.pathname != "/music/") return;
+        // if (window.location.pathname != "/music/") return;
+        if (window.location.pathname == null ) return;
         anMusicPage.querySelector(".aplayer-list").classList.remove("aplayer-list-hide");
       });
     },
