@@ -1,7 +1,7 @@
 var anzhiyu = {
     // 音乐节目切换背景
     changeMusicBg: function (isChangeBg = true) {
-      if (window.location.pathname == null) {
+      if (window.location.pathname != "/music/") {
         return;
       }
       const anMusicBg = document.getElementById("an_music_bg");
@@ -45,8 +45,7 @@ var anzhiyu = {
       });
   
       document.getElementById("menu-mask").addEventListener("click", function () {
-        // if (window.location.pathname != "/music/") return;
-        if (window.location.pathname == null ) return;
+        if (window.location.pathname != "/music/") return;
         anMusicPage.querySelector(".aplayer-list").classList.remove("aplayer-list-hide");
       });
     },
